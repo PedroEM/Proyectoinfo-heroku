@@ -1,1 +1,1 @@
-web: bin/start-pgbouncer-stunnel gunicorn Proyectoinfo.wsgi
+web: gunicorn ProyectoInfo.wsgi --log-file -
