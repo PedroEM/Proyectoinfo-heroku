@@ -36,7 +36,7 @@ def logout(request):
     return redirect('/')
 
 def inicio(request):
-    return render(request, 'core/index.html')
+    return render(request, 'Core/index.html')
 
 def contacto(request):
     if request.method == "POST":
